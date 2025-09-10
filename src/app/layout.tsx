@@ -38,13 +38,13 @@ export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   maximumScale: 1,
-  themeColor: "#000000",
+  themeColor: "#1f222b",
 }
 
 const RootLayout = ({ children }: { children: ReactNode }) => {
   return (
     <html lang="en" className="h-full">
-      <body className={`${inter.variable} ${satoshi.variable} antialiased bg-[#2A3EF4]`} suppressHydrationWarning>
+      <body className={`${inter.variable} ${satoshi.variable} antialiased`} suppressHydrationWarning>
         <Script id="cache-cleaner" strategy="beforeInteractive" src="/scripts/cache-cleaner.js" />
         <Providers>{children}</Providers>
       </body>
