@@ -37,7 +37,7 @@ export const Providers = ({ children }: { children: ReactNode }) => {
         embeddedWallets: {
           showWalletUIs: false,
           solana: {
-            createOnLogin: "users-without-wallets",
+            createOnLogin: "off",
           },
         },
         externalWallets: {
