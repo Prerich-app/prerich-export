@@ -6,10 +6,6 @@ import { toSolanaWalletConnectors } from "@privy-io/react-auth/solana"
 import { useMemo } from "react"
 import { useIOSApp } from "../hooks/useIOSApp"
 
-const solanaConnectors = toSolanaWalletConnectors({
-  shouldAutoConnect: false,
-})
-
 export const Providers = ({ children }: { children: ReactNode }) => {
   const appId = process.env.NEXT_PUBLIC_PRIVY_APP_ID
   const ios = useIOSApp()
@@ -42,7 +38,7 @@ export const Providers = ({ children }: { children: ReactNode }) => {
         },
         externalWallets: {
           solana: {
-            connectors: solanaConnectors,
+            connectors: toSolanaWalletConnectors({ shouldAutoConnect: false }),
           },
           walletConnect: {
             enabled: false,
