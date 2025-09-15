@@ -1,0 +1,35 @@
+{
+  "id": "prerich-web",
+  "name": "Prerich",
+  "short_name": "Prerich",
+  "description": "Discover and trade the hottest memecoins easily and securely. MEMES MADE EASY.",
+  "display": "standalone",
+  "orientation": "natural",
+  "theme_color": "#181A21",
+  "background_color": "#0440F7",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/icons/prerich-letter-blue-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/prerich-letter-blue-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/prerich-letter-blue-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/maskable-icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
