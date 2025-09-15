@@ -1,0 +1,33 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "9QXZ3B3F2F.com.prerich.ios"
+        ],
+        "components": [
+          {
+            "#": "/login",
+            "exclude": true,
+            "comment": "Exclude login links from the app"
+          },
+          {
+            "/": "*",
+            "comment": "Open all other links in the app"
+          }
+        ]
+      },
+      {
+        "appID": "9QXZ3B3F2F.com.prerich.ios",
+        "paths": [
+          "*"
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "9QXZ3B3F2F.com.prerich.ios"
+    ]
+  }
+}
